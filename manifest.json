@@ -30,6 +30,7 @@
     "storage",
     "serial",
     "usb",
+    "hid",
     {
       "usbDevices": [
         {
@@ -84,6 +85,12 @@
           "vendorId": 1027,
           "productId": 24577,
           "sendTimeout": 5000
+        },
+        {
+          "deviceName": "BayerContourNextUsb",
+          "driverId": "BayerContourNextUsb",
+          "vendorId": 6777,
+          "productId": 29712
         }
       ]
     }
